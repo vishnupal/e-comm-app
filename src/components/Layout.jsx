@@ -4,7 +4,7 @@ import Header from './Header';
 import { Outlet } from 'react-router-dom';
 const theme = createTheme({
   palette: {
-    mode: 'dark',
+    mode: 'light',
   },
 });
 function Layout() {
@@ -13,7 +13,7 @@ function Layout() {
       <CssBaseline />
       <Header />
       <Outlet />
-      <footer>Footer</footer>
+      {/* <footer>Footer</footer> */}
     </ThemeProvider>
   );
 }
