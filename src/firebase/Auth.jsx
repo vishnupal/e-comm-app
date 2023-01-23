@@ -15,12 +15,7 @@ import { createContext } from 'react';
 const AuthContext = createContext(null);
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyBnKqe7oL2lP3Jv0dNxYMhv7gJq27GVQec',
-  authDomain: 'my-shop-4b2fe.firebaseapp.com',
-  projectId: 'my-shop-4b2fe',
-  storageBucket: 'my-shop-4b2fe.appspot.com',
-  messagingSenderId: '482888109050',
-  appId: '1:482888109050:web:8311f62192600a64a5f243',
+ // firebaseconfig
 };
 
 const AuthProvider = ({ children }) => {
